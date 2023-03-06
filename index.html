@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        background-color: rgb(161, 60, 86);
+      }
+      header {
+        display: grid;
+        place-items: center;
+      }
+      .input {
+        margin-top: 50px;
+        display: grid;
+        place-items: center;
+      }
+      button {
+        display: block;
+        position: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>Character counter</h1></header>
+      <div class="input">
+        <textarea name="" class="text" cols="80" rows="10"></textarea>
+        <button class="result">calculate</button>
+        <p>written character:<span class="none">0</span></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
